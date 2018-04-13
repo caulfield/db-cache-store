@@ -2,10 +2,10 @@
 
 require 'test_helper'
 
-module ArCacheStore
+module DbCacheStore
   class VersionTest < Minitest::Test
     def test_version_exist
-      refute_nil ::ArCacheStore::VERSION
+      refute_nil ::DbCacheStore::VERSION
     end
   end
 end

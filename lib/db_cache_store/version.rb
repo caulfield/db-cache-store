@@ -1,3 +1,3 @@
-module ArCacheStore
+module DbCacheStore
   VERSION = "0.1.0"
 end
